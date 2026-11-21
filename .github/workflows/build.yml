@@ -37,7 +37,7 @@ jobs:
       - name: Sorgente (repo privata)
         uses: actions/checkout@v4
         with:
-          repository: Giuseppe-sciarra/TD-Vexa
+          repository: tastieredigitali/TD-Vexa
           token: ${{ secrets.SORGENTE_TOKEN }}
           ref: ${{ inputs.ramo || 'main' }}
 
