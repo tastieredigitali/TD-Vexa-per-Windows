@@ -4,11 +4,11 @@
 
 [**Scarica l'ultima versione**](../../releases/latest) · [Pagina del programma](https://tastieredigitali.tech/software/gestionale-negozio/) · Windows 10 e 11 a 64 bit · 7 giorni di prova
 
-![La pagina delle vendite](screenshots/vendite.png?v=v0.44.84)
+![La pagina delle vendite](screenshots/vendite.png?v=v0.44.86)
 
 Il cliente si sceglie da una finestra di ricerca: per ragione sociale, partita IVA, codice, indirizzo o città, così due clienti con lo stesso nome non si confondono.
 
-![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.44.84)
+![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.44.86)
 
 ## A cosa serve
 
@@ -45,7 +45,7 @@ Cerchi l'articolo scrivendo o lo leggi con il lettore, e la riga è fatta. Il cl
 
 La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incassi e uscite del giorno, giornata aperta o chiusa. Sotto, le operazioni che contano, ognuna con scritto cosa fa e con la sua conferma.
 
-![La pagina della cassa](screenshots/cassa.png?v=v0.44.84)
+![La pagina della cassa](screenshots/cassa.png?v=v0.44.86)
 
 - **Chiusura della giornata**, con la chiusura fiscale sul registratore di cassa collegato.
 - **Versamento in banca**, uscite ed entrate di cassa.
@@ -58,7 +58,7 @@ La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incass
 
 Scegli un giorno o un periodo, oppure premi Oggi, Ieri, Questa settimana, Questo mese. Vedi subito venduto, incassato, uscite e margine, con l'andamento a barre e le tabelle per mezzo di pagamento, tipo di documento, operatore e IVA.
 
-![Il report del periodo](screenshots/report.png?v=v0.44.84)
+![Il report del periodo](screenshots/report.png?v=v0.44.86)
 
 Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora, cliente, operatore, righe e pagamento di ogni scontrino e fattura. Ci sono poi le statistiche di vendite, incassi, clienti, rotazione del magazzino e assistenza.
 
@@ -66,19 +66,19 @@ Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora,
 
 Il preventivo si scrive come una vendita e si stampa con il tuo logo, il testo di apertura e di chiusura che vuoi tu, e solo le colonne che decidi di mostrare. Si manda per email con il PDF allegato, si clona, e con un tasto diventa un ordine.
 
-![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.44.84)
+![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.44.86)
 
 - Ordini dei clienti con **caparra** (e ricevuta da far firmare), consegna prevista, riferimento del cliente.
 - Merce **assegnata** all'ordine, lista di quello che manca, avviso al cliente quando arriva.
 - Dall'ordine alla consegna con scontrino, fattura o DDT; i DDT si fatturano insieme a fine mese, con la data che scegli.
 
-![Gli ordini dei clienti](screenshots/ordini.png?v=v0.44.84)
+![Gli ordini dei clienti](screenshots/ordini.png?v=v0.44.86)
 
 ## Assistenza
 
 Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il cliente è nuovo, e stampi la **ricevuta** per lui e la **scheda interna** per il laboratorio, con tutti i suoi recapiti.
 
-![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.44.84)
+![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.44.86)
 
 - **Garanzia** con data d'acquisto e scadenza: se l'oggetto l'hai venduto tu, il numero di serie le scrive da solo.
 - Urgente, preventivo richiesto, data in cui deve essere pronto.
@@ -88,11 +88,11 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - Invio al fornitore con il DDT, **rientro con il suo documento**, e registro delle riparazioni.
 - Guasti e resi a fornitore (RMA) con numero, date e stato.
 
-![La gestione degli interventi](screenshots/interventi.png?v=v0.44.84)
+![La gestione degli interventi](screenshots/interventi.png?v=v0.44.86)
 
 ## Magazzino e acquisti
 
-![Le giacenze](screenshots/giacenze.png?v=v0.44.84)
+![Le giacenze](screenshots/giacenze.png?v=v0.44.86)
 
 - Più magazzini, carichi e scarichi, giacenze e valorizzazione, **trasferimento** da un magazzino all'altro in un colpo.
 - **Arrivo merce** con il documento del fornitore, le spese di trasporto divise sui costi e la conferma con il totale.
@@ -105,11 +105,11 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - Listini, listini derivati, offerte speciali, **prezzi programmati** a data, cambio di aliquota IVA in blocco.
 - Etichette, cartelli prezzo ed etichette di spedizione.
 
-![Il registro degli arrivi](screenshots/arrivi.png?v=v0.44.84)
+![Il registro degli arrivi](screenshots/arrivi.png?v=v0.44.86)
 
 ## Articoli, Icecat e sito
 
-![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.44.84)
+![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.44.86)
 
 - L'articolo nuovo si compila a mano o si scarica da **Icecat** con il codice EAN: descrizione, immagini e caratteristiche.
 - Prezzo senza IVA, con IVA e ricarico sul costo, uno accanto all'altro; un articolo si **clona** con un tasto.
@@ -120,7 +120,7 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 
 Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e **Salva in PDF** propone già il nome del file. Nel PDF il testo si seleziona e si cerca. Il logo si carica una volta in Configurazione e compare su tutti i documenti.
 
-![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.44.84)
+![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.44.86)
 
 - **DDT** con causale, aspetto dei beni, colli, peso, porto e vettore; se vuoi, senza prezzi.
 - Su un documento emesso si correggono note, numeri di serie e dati di trasporto, senza rifarlo.
@@ -132,23 +132,23 @@ Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e 
 
 Non serve installare niente e non serve una VPN: apri l'indirizzo del negozio dal browser, entri con utente, password e (se l'hai attivata) la verifica in due passaggi, e trovi lo stesso menu del programma.
 
-![Le vendite dal browser](screenshots/web-vendita.png?v=v0.44.84)
+![Le vendite dal browser](screenshots/web-vendita.png?v=v0.44.86)
 
 - Vendite, preventivi, ordini, documenti, cassa, assistenza, magazzino, anagrafiche e configurazione: le stesse funzioni.
 - **Le stampe escono sulla stampante del PC da cui sei collegato**, oppure le salvi in PDF dal browser.
 - **Lo scontrino esce sulla cassa del negozio** anche se la vendita la fai dal browser o da un'altra postazione: lo batte il PC a cui la cassa è collegata.
 
-![La cassa dal browser](screenshots/web-cassa.png?v=v0.44.84)
+![La cassa dal browser](screenshots/web-cassa.png?v=v0.44.86)
 
-![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.44.84)
+![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.44.86)
 
-![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.44.84)
+![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.44.86)
 
 ## Come lo vuoi tu
 
 In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, blocco senza giacenza, sconto massimo, mezzi di pagamento proposti, giorni di validità del preventivo, DDT senza prezzi, riconsegna solo con documento, e altro.
 
-![Le opzioni](screenshots/opzioni.png?v=v0.44.84)
+![Le opzioni](screenshots/opzioni.png?v=v0.44.86)
 
 - **Utenti e permessi**: ogni utente vede solo le voci di menu che gli lasci, e il server le chiude davvero.
 - **Registro delle attività**: chi ha annullato, eliminato o cambiato cosa, e quando.
@@ -156,7 +156,7 @@ In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, 
 
 ## Chiaro e scuro
 
-![Il tema scuro](screenshots/tema-scuro.png?v=v0.44.84)
+![Il tema scuro](screenshots/tema-scuro.png?v=v0.44.86)
 
 ## Scaricare e installare
 
