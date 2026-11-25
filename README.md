@@ -4,11 +4,11 @@
 
 [**Scarica l'ultima versione**](../../releases/latest) · [Pagina del programma](https://tastieredigitali.tech/software/gestionale-negozio/) · Windows 10 e 11 a 64 bit · 7 giorni di prova
 
-![La pagina delle vendite](screenshots/vendite.png?v=v0.44.90)
+![La pagina delle vendite](screenshots/vendite.png?v=v0.44.92)
 
 Il cliente si sceglie da una finestra di ricerca: per ragione sociale, partita IVA, codice, indirizzo o città, così due clienti con lo stesso nome non si confondono.
 
-![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.44.90)
+![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.44.92)
 
 ## A cosa serve
 
@@ -45,7 +45,7 @@ Cerchi l'articolo scrivendo o lo leggi con il lettore, e la riga è fatta. Il cl
 
 La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incassi e uscite del giorno, giornata aperta o chiusa. Sotto, le operazioni che contano, ognuna con scritto cosa fa e con la sua conferma.
 
-![La pagina della cassa](screenshots/cassa.png?v=v0.44.90)
+![La pagina della cassa](screenshots/cassa.png?v=v0.44.92)
 
 - **Chiusura della giornata**, con la chiusura fiscale sul registratore di cassa collegato.
 - **Versamento in banca**, uscite ed entrate di cassa.
@@ -58,7 +58,7 @@ La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incass
 
 Scegli un giorno o un periodo, oppure premi Oggi, Ieri, Questa settimana, Questo mese. Vedi subito venduto, incassato, uscite e margine, con l'andamento a barre e le tabelle per mezzo di pagamento, tipo di documento, operatore e IVA.
 
-![Il report del periodo](screenshots/report.png?v=v0.44.90)
+![Il report del periodo](screenshots/report.png?v=v0.44.92)
 
 Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora, cliente, operatore, righe e pagamento di ogni scontrino e fattura. Ci sono poi le statistiche di vendite, incassi, clienti, rotazione del magazzino e assistenza.
 
@@ -66,19 +66,19 @@ Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora,
 
 Il preventivo si scrive come una vendita e si stampa con il tuo logo, il testo di apertura e di chiusura che vuoi tu, e solo le colonne che decidi di mostrare. Si manda per email con il PDF allegato, si clona, e con un tasto diventa un ordine.
 
-![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.44.90)
+![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.44.92)
 
 - Ordini dei clienti con **caparra** (e ricevuta da far firmare), consegna prevista, riferimento del cliente.
 - Merce **assegnata** all'ordine, lista di quello che manca, avviso al cliente quando arriva.
 - Dall'ordine alla consegna con scontrino, fattura o DDT; i DDT si fatturano insieme a fine mese, con la data che scegli.
 
-![Gli ordini dei clienti](screenshots/ordini.png?v=v0.44.90)
+![Gli ordini dei clienti](screenshots/ordini.png?v=v0.44.92)
 
 ## Assistenza
 
 Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il cliente è nuovo, e stampi la **ricevuta** per lui e la **scheda interna** per il laboratorio, con tutti i suoi recapiti.
 
-![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.44.90)
+![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.44.92)
 
 - **Garanzia** con data d'acquisto e scadenza: se l'oggetto l'hai venduto tu, il numero di serie le scrive da solo.
 - Urgente, preventivo richiesto, data in cui deve essere pronto.
@@ -88,11 +88,11 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - Invio al fornitore con il DDT, **rientro con il suo documento**, e registro delle riparazioni.
 - Guasti e resi a fornitore (RMA) con numero, date e stato.
 
-![La gestione degli interventi](screenshots/interventi.png?v=v0.44.90)
+![La gestione degli interventi](screenshots/interventi.png?v=v0.44.92)
 
 ## Magazzino e acquisti
 
-![Le giacenze](screenshots/giacenze.png?v=v0.44.90)
+![Le giacenze](screenshots/giacenze.png?v=v0.44.92)
 
 - Più magazzini, carichi e scarichi, giacenze e valorizzazione, **trasferimento** da un magazzino all'altro in un colpo.
 - **Arrivo merce** con il documento del fornitore, le spese di trasporto divise sui costi e la conferma con il totale.
@@ -105,11 +105,11 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - Listini, listini derivati, offerte speciali, **prezzi programmati** a data, cambio di aliquota IVA in blocco.
 - Etichette, cartelli prezzo ed etichette di spedizione.
 
-![Il registro degli arrivi](screenshots/arrivi.png?v=v0.44.90)
+![Il registro degli arrivi](screenshots/arrivi.png?v=v0.44.92)
 
 ## Articoli, Icecat e sito
 
-![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.44.90)
+![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.44.92)
 
 - L'articolo nuovo si compila a mano o si scarica da **Icecat** con il codice EAN: descrizione, immagini e caratteristiche.
 - Prezzo senza IVA, con IVA e ricarico sul costo, uno accanto all'altro; un articolo si **clona** con un tasto.
@@ -118,11 +118,13 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 
 ## Il sito web
 
-Tutto il lavoro di ogni giorno con il sito WooCommerce sta in una pagina sola, con la sua sezione nel menu: **Sito web, Sincronizzazione sito**. Il collegamento (indirizzo del sito e chiavi) si scrive una volta in Configurazione e utilità, «Sito WooCommerce», e resta dell'amministratore.
+Tutto quello che riguarda il sito WooCommerce sta in una sezione sola del menu, **Sito web**. La voce di ogni giorno è **Sincronizzazione sito**. Sotto ci sono le voci che si toccano una volta, e che restano dell'amministratore: «Sito WooCommerce» (indirizzo del sito e chiavi), «Categorie del sito» (quale categoria del sito corrisponde a ogni classe) e «Icecat».
 
-![Da sincronizzare](screenshots/web-sito-da-sincronizzare.png?v=v0.44.90)
+![Da sincronizzare](screenshots/web-sito-da-sincronizzare.png?v=v0.44.92)
 
-**1. Leggi il sito.** È il primo tasto da premere e non scrive niente sul sito: guarda i prodotti, le categorie e le foto che ci sono e abbina ogni prodotto al suo articolo, per codice e poi per EAN. Si può premere quando si vuole.
+**1. Il primo sync, dal sito al programma.** La prima volta la pagina mostra un tasto solo: **Primo sync dal sito**. Legge i prodotti, le categorie e le foto che il sito ha già, collega ogni prodotto al suo articolo (per codice, poi per EAN) e abbina le classi del programma alle categorie del sito: una classe prende la categoria dove il sito tiene i suoi articoli e, se non ne ha, quella con lo stesso nome. Sul sito non scrive niente. Finché non è stato fatto, verso il sito non parte niente: né a mano né in automatico. **Da lì in poi comanda il programma**: prezzi, giacenze, categorie e prodotti nuovi vanno dal programma al sito.
+
+Dopo, lo stesso tasto diventa «Rifai il primo sync dal sito» (abbina le classi rimaste senza categoria; gli abbinamenti già fatti non li tocca) e compare **Leggi il sito**, che rilegge i prodotti quando si vuole, sempre senza scrivere.
 
 **2. Quattro elenchi.**
 
@@ -131,9 +133,11 @@ Tutto il lavoro di ogni giorno con il sito WooCommerce sta in una pagina sola, c
 - **Non ancora sul sito**: gli articoli che il sito non ha. «Manda sul sito gli scelti» li crea come bozze, con nome, descrizione, foto, prezzo e giacenza: li pubblicate voi dal sito dopo averli guardati.
 - **Solo sul sito**: i prodotti che il sito ha e il programma no. Con un tasto diventano articoli.
 
-![Le categorie del sito](screenshots/web-sito.png?v=v0.44.90)
+![Le categorie del sito](screenshots/web-sito.png?v=v0.44.92)
 
-**3. Le categorie.** Negli altri tre elenchi, a sinistra c'è l'albero delle categorie del sito, con accanto quanti prodotti dell'elenco stanno in ognuna (una categoria conta anche i prodotti delle sue sottocategorie). Un clic su una categoria e l'elenco mostra solo i suoi prodotti. «Nascondi le categorie vuote» toglie dall'albero quelle senza prodotti. Sotto «Non ancora sul sito» la categoria è quella a cui è abbinata la classe dell'articolo (Configurazione, Categorie del sito).
+**3. Le categorie.** Negli altri tre elenchi, a sinistra c'è l'albero della classificazione, la stessa del programma: **famiglia, classe, sottoclasse**. Accanto a ogni ramo c'è quanti prodotti dell'elenco contiene (un ramo conta anche quelli che gli stanno sotto). Un clic su un ramo e l'elenco mostra solo i suoi prodotti. «Nascondi le categorie vuote» toglie dall'albero i rami senza prodotti. Solo sotto «Solo sul sito», dove gli articoli nel programma non ci sono, l'albero è quello delle categorie del sito.
+
+**Le categorie vanno sul sito come sono nel programma.** La classificazione del programma fa da modello. Quando un prodotto parte con le categorie, il suo ramo (famiglia, classe, sottoclasse) viene abbinato alla categoria del sito che ha lo stesso nome sotto la stessa madre; se sul sito non c'è, viene creata, con tutto il ramo che ha sopra. Così una classe nuova con dentro dei prodotti arriva sul sito già al suo posto nell'albero. Un ramo già abbinato non si tocca, e sul sito non si rinomina e non si cancella niente. Gli abbinamenti si vedono e si correggono in «Categorie del sito»; la creazione si spegne in «Sito WooCommerce», voce «Porta sul sito le categorie come sono nel programma».
 
 **4. Sincronizza gli scelti.** Si spuntano le righe e si sceglie cosa mandare: **prezzi**, **giacenze**, **categorie**, **foto**. Nome e descrizione di un prodotto che è già sul sito non vengono mai toccati.
 
@@ -166,7 +170,7 @@ Da sapere: una foto tolta da un prodotto resta nella libreria dei media del sito
 
 Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e **Salva in PDF** propone già il nome del file. Nel PDF il testo si seleziona e si cerca. Il logo si carica una volta in Configurazione e compare su tutti i documenti.
 
-![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.44.90)
+![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.44.92)
 
 - **DDT** con causale, aspetto dei beni, colli, peso, porto e vettore; se vuoi, senza prezzi.
 - Su un documento emesso si correggono note, numeri di serie e dati di trasporto, senza rifarlo.
@@ -178,23 +182,23 @@ Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e 
 
 Non serve installare niente e non serve una VPN: apri l'indirizzo del negozio dal browser, entri con utente, password e (se l'hai attivata) la verifica in due passaggi, e trovi lo stesso menu del programma.
 
-![Le vendite dal browser](screenshots/web-vendita.png?v=v0.44.90)
+![Le vendite dal browser](screenshots/web-vendita.png?v=v0.44.92)
 
 - Vendite, preventivi, ordini, documenti, cassa, assistenza, magazzino, anagrafiche e configurazione: le stesse funzioni.
 - **Le stampe escono sulla stampante del PC da cui sei collegato**, oppure le salvi in PDF dal browser.
 - **Lo scontrino esce sulla cassa del negozio** anche se la vendita la fai dal browser o da un'altra postazione: lo batte il PC a cui la cassa è collegata.
 
-![La cassa dal browser](screenshots/web-cassa.png?v=v0.44.90)
+![La cassa dal browser](screenshots/web-cassa.png?v=v0.44.92)
 
-![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.44.90)
+![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.44.92)
 
-![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.44.90)
+![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.44.92)
 
 ## Come lo vuoi tu
 
 In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, blocco senza giacenza, sconto massimo, mezzi di pagamento proposti, giorni di validità del preventivo, DDT senza prezzi, riconsegna solo con documento, e altro.
 
-![Le opzioni](screenshots/opzioni.png?v=v0.44.90)
+![Le opzioni](screenshots/opzioni.png?v=v0.44.92)
 
 - **Utenti e permessi**: ogni utente vede solo le voci di menu che gli lasci, e il server le chiude davvero.
 - **Registro delle attività**: chi ha annullato, eliminato o cambiato cosa, e quando.
@@ -202,7 +206,7 @@ In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, 
 
 ## Chiaro e scuro
 
-![Il tema scuro](screenshots/tema-scuro.png?v=v0.44.90)
+![Il tema scuro](screenshots/tema-scuro.png?v=v0.44.92)
 
 ## Scaricare e installare
 
