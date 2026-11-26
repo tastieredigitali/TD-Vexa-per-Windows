@@ -4,11 +4,11 @@
 
 [**Scarica l'ultima versione**](../../releases/latest) · [Pagina del programma](https://tastieredigitali.tech/software/gestionale-negozio/) · Windows 10 e 11 a 64 bit · 7 giorni di prova
 
-![La pagina delle vendite](screenshots/vendite.png?v=v0.45.10)
+![La pagina delle vendite](screenshots/vendite.png?v=v0.45.11)
 
 Il cliente si sceglie da una finestra di ricerca: per ragione sociale, partita IVA, codice, indirizzo o città, così due clienti con lo stesso nome non si confondono.
 
-![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.45.10)
+![La ricerca dei clienti](screenshots/ricerca-clienti.png?v=v0.45.11)
 
 ## A cosa serve
 
@@ -45,11 +45,11 @@ Cerchi l'articolo scrivendo o lo leggi con il lettore, e la riga è fatta. Il cl
 
 La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incassi e uscite del giorno, giornata aperta o chiusa. Sotto, le operazioni che contano, ognuna con scritto cosa fa e con la sua conferma.
 
-![La pagina della cassa](screenshots/cassa.png?v=v0.45.10)
+![La pagina della cassa](screenshots/cassa.png?v=v0.45.11)
 
 - **Chiusura della giornata**, con la chiusura fiscale sul registratore di cassa collegato.
 - **Versamento in banca**, uscite ed entrate di cassa.
-- **Prima nota** con le scadenze da incassare e da pagare, e **ricevute bancarie** con il file per la banca.
+- **Prima nota** con le scadenze da incassare e da pagare (doppio clic su un movimento nato da uno scontrino o da una fattura: si apre il documento con le sue righe), e **ricevute bancarie** con il file per la banca.
 - **Mezzi di pagamento** che decidi tu, con quelli che restano nel cassetto a fine giornata.
 - Registratore di cassa in rete, USB o seriale, con ricerca automatica: Micrelec collegate direttamente (in rete o seriale, chiusura fiscale compresa), Epson e RCH dal loro servizio web, Ditron in rete, un elenco di modelli che imposta tutto da solo; le altre marche con i comandi XON/XOFF oppure attraverso il programma ponte che già pilota la cassa (Custom, Ditron, Olivetti, Fasy, Sarema, Sweda e altre).
 - Copia non fiscale sulla stampante a rotolo.
@@ -58,7 +58,7 @@ La pagina della cassa mette i numeri in grande: quanto c'è nel cassetto, incass
 
 Scegli un giorno o un periodo, oppure premi Oggi, Ieri, Questa settimana, Questo mese. Vedi subito venduto, incassato, uscite e margine, con l'andamento a barre e le tabelle per mezzo di pagamento, tipo di documento, operatore e IVA.
 
-![Il report del periodo](screenshots/report.png?v=v0.45.10)
+![Il report del periodo](screenshots/report.png?v=v0.45.11)
 
 Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora, cliente, operatore, righe e pagamento di ogni scontrino e fattura. Ci sono poi le statistiche di vendite, incassi, clienti, rotazione del magazzino e assistenza.
 
@@ -66,19 +66,19 @@ Ogni report si stampa o si salva in PDF, anche **documento per documento**: ora,
 
 Il preventivo si scrive come una vendita e si stampa con il tuo logo, il testo di apertura e di chiusura che vuoi tu, e solo le colonne che decidi di mostrare. Si manda per email con il PDF allegato, si clona, e con un tasto diventa un ordine.
 
-![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.45.10)
+![Un preventivo stampato](screenshots/stampa-preventivo.png?v=v0.45.11)
 
 - Ordini dei clienti con **caparra** (e ricevuta da far firmare), consegna prevista, riferimento del cliente.
 - Merce **assegnata** all'ordine, lista di quello che manca, avviso al cliente quando arriva.
 - Dall'ordine alla consegna con scontrino, fattura o DDT; i DDT si fatturano insieme a fine mese, con la data che scegli.
 
-![Gli ordini dei clienti](screenshots/ordini.png?v=v0.45.10)
+![Gli ordini dei clienti](screenshots/ordini.png?v=v0.45.11)
 
 ## Assistenza
 
 Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il cliente è nuovo, e stampi la **ricevuta** per lui e la **scheda interna** per il laboratorio, con tutti i suoi recapiti.
 
-![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.45.10)
+![L'accettazione di una riparazione](screenshots/assistenza.png?v=v0.45.11)
 
 - **Garanzia** con data d'acquisto e scadenza: se l'oggetto l'hai venduto tu, il numero di serie le scrive da solo.
 - Urgente, preventivo richiesto, data in cui deve essere pronto.
@@ -88,11 +88,11 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - Invio al fornitore con il DDT, **rientro con il suo documento**, e registro delle riparazioni.
 - Guasti e resi a fornitore (RMA) con numero, date e stato.
 
-![La gestione degli interventi](screenshots/interventi.png?v=v0.45.10)
+![La gestione degli interventi](screenshots/interventi.png?v=v0.45.11)
 
 ## Magazzino e acquisti
 
-![Le giacenze](screenshots/giacenze.png?v=v0.45.10)
+![Le giacenze](screenshots/giacenze.png?v=v0.45.11)
 
 - Più magazzini, carichi e scarichi, giacenze e valorizzazione, **trasferimento** da un magazzino all'altro in un colpo.
 - **Arrivo merce** con il documento del fornitore, le spese di trasporto divise sui costi e la conferma con il totale.
@@ -103,13 +103,15 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 - **Costi dal listino del fornitore**: carichi il suo file e i costi degli articoli in comune si aggiornano.
 - **Assemblaggio**: i componenti escono, il PC entra al loro costo, con i numeri di serie.
 - Listini, listini derivati, offerte speciali, **prezzi programmati** a data, cambio di aliquota IVA in blocco.
+- **Gestione listini** (Configurazione e utilità): la tabella «Relazione fra listini» dice come nasce ogni listino: origine (costo medio, un altro listino, o manuale), ricarico o sconto generico in %, listino limite, ordine di ricalcolo e arrotondamenti; si cambia lì e si salva con «Salva impostazioni». Sotto, il ricalcolo: per listino, classe e sottoclasse, subito o da una data, con le opzioni (anche dove l'origine vale zero, anche gli articoli con distinta base, dal costo medio anche con giacenza zero) e la generazione del listino in data per i soli articoli arrivati da fornitore da un certo giorno.
+- Cambiando listino in un preventivo o in una vendita le righe prendono i prezzi del listino nuovo; il programma dice quante righe sono cambiate (un articolo con lo stesso prezzo nei due listini resta com'è).
 - Etichette, cartelli prezzo ed etichette di spedizione.
 
-![Il registro degli arrivi](screenshots/arrivi.png?v=v0.45.10)
+![Il registro degli arrivi](screenshots/arrivi.png?v=v0.45.11)
 
 ## Articoli, Icecat e sito
 
-![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.45.10)
+![La scheda di un articolo](screenshots/scheda-articolo.png?v=v0.45.11)
 
 - L'articolo nuovo si compila a mano o si scarica da **Icecat** con il codice EAN: descrizione, immagini e caratteristiche.
 - Prezzo senza IVA, con IVA e ricarico sul costo, uno accanto all'altro; un articolo si **clona** con un tasto.
@@ -120,7 +122,7 @@ Il cliente porta un oggetto da riparare: lo accetti in una pagina, anche se il c
 
 Tutto quello che riguarda il sito WooCommerce sta in una sezione sola del menu, **Sito web**. La voce di ogni giorno è **Sincronizzazione sito**. Sotto ci sono le voci che si toccano una volta, e che restano dell'amministratore: «Sito WooCommerce» (indirizzo del sito e chiavi), «Categorie del sito» (quale categoria del sito corrisponde a ogni classe) e «Icecat».
 
-![Da sincronizzare](screenshots/web-sito-da-sincronizzare.png?v=v0.45.10)
+![Da sincronizzare](screenshots/web-sito-da-sincronizzare.png?v=v0.45.11)
 
 **1. Il primo sync, dal sito al programma.** La prima volta la pagina mostra un tasto solo: **Primo sync dal sito**. Legge i prodotti, le categorie e le foto che il sito ha già, collega ogni prodotto al suo articolo (per codice, poi per EAN) e abbina le classi del programma alle categorie del sito: una classe prende la categoria dove il sito tiene i suoi articoli e, se non ne ha, quella con lo stesso nome. Sul sito non scrive niente. Finché non è stato fatto, verso il sito non parte niente: né a mano né in automatico. **Da lì in poi comanda il programma**: prezzi, giacenze, categorie e prodotti nuovi vanno dal programma al sito. La lettura va in sottofondo, con la barra e la percentuale dei prodotti letti: su un sito con migliaia di prodotti dura qualche minuto, e intanto si può cambiare pagina.
 
@@ -133,7 +135,7 @@ Dopo, lo stesso tasto diventa «Rifai il primo sync dal sito» (abbina le classi
 - **Non ancora sul sito**: gli articoli che il sito non ha. «Manda sul sito gli scelti» li crea, con nome, descrizione, foto, prezzo e giacenza. Nascono già in vendita, o come bozze se scelto in Sito WooCommerce.
 - **Solo sul sito**: i prodotti che il sito ha e il programma no. Con un tasto diventano articoli.
 
-![Le categorie del sito](screenshots/web-sito.png?v=v0.45.10)
+![Le categorie del sito](screenshots/web-sito.png?v=v0.45.11)
 
 **3. Le categorie.** Negli altri tre elenchi, a sinistra c'è l'albero della classificazione, la stessa del programma: **famiglia, classe, sottoclasse**. Accanto a ogni ramo c'è quanti prodotti dell'elenco contiene (un ramo conta anche quelli che gli stanno sotto). Un clic su un ramo e l'elenco mostra solo i suoi prodotti. «Nascondi le categorie vuote» toglie dall'albero i rami senza prodotti. Solo sotto «Solo sul sito», dove gli articoli nel programma non ci sono, l'albero è quello delle categorie del sito.
 
@@ -160,7 +162,7 @@ Con la spunta **«Prima chiedi a Icecat le foto di oggi»** il programma, per og
 
 Da sapere: una foto tolta da un prodotto resta nella libreria dei media del sito, da dove si cancella a mano. Ogni articolo manda al massimo otto foto.
 
-**6. Togliere e cancellare.** «Togli dalla vendita» mette il prodotto in bozza: non si vede più, ma resta. «Cancella dal sito» lo manda nel cestino di WooCommerce, da dove si recupera per 30 giorni; nel programma l'articolo resta. Nessuna delle due cose succede mai da sola.
+**6. Togliere e cancellare.** «Togli dalla vendita» mette il prodotto in bozza: non si vede più, ma resta. «Cancella dal sito» lo manda nel cestino di WooCommerce, da dove si recupera per 30 giorni; nel programma l'articolo resta. **Dalla scheda articolo**: togliendo la spunta «Articolo visibile sul sito», o mettendo l'articolo obsoleto, il suo prodotto compare in «Da sincronizzare» con scritto «da togliere dal sito» (e conta nel numerino del menu); alla sincronizzazione va nel cestino di WooCommerce. Il giro automatico di ogni minuto non toglie niente: succede solo quando si preme «Sincronizza».
 
 **7. Automatico.** Con la spunta «Automatico», ogni minuto partono verso il sito prezzi e giacenze **solo degli articoli cambiati**. Gli ordini del sito arrivano nel programma solo se in Sito WooCommerce è accesa la spunta «Ricevi gli ordini dal sito»: spenta, il giro automatico manda prezzi e giacenze e gli ordini non li tocca. Senza la spunta, il sito si aggiorna solo quando lo chiedi tu.
 
@@ -174,7 +176,7 @@ Da sapere: una foto tolta da un prodotto resta nella libreria dei media del sito
 
 **Descrizioni e foto nella scheda articolo.** Nella scheda di ogni articolo, sotto il titolo (il campo «Descrizione»), ci sono i due editor delle descrizioni per il sito e subito sotto le foto:
 
-![Descrizioni e foto di un articolo](screenshots/web-articolo-foto.png?v=v0.45.10)
+![Descrizioni e foto di un articolo](screenshots/web-articolo-foto.png?v=v0.45.11)
 
 - **Descrizione breve** (sul sito sta accanto alla foto) e **descrizione estesa** (sotto, nella scheda), ognuna nel suo editor: grassetto, corsivo, titoli, elenchi, collegamenti, emoji con Windows + punto. Un testo copiato da una pagina del sito o da Word si incolla con la sua formattazione: restano titoli, grassetti ed elenchi, se ne vanno stili e classi, e le emoji che WordPress mostra come immagini tornano caratteri (se no uscirebbero giganti). Nel programma installato l'editor si apre con il tasto o con un doppio clic sul riquadro. Un testo scritto senza formattazione va sul sito con i suoi a capo.
 - **Foto**: «Aggiungi foto» carica le immagini dal PC; la prima è la **principale**, le altre la **galleria**. Con la stella una foto diventa la principale, con le frecce si ordina, con la croce si toglie. Si salvano con «Salva». Chi ha le sue foto non le prende da Icecat, e chi ha la sua descrizione estesa tiene quella: Icecat riempie solo quello che manca (la tabella delle caratteristiche la aggiunge comunque). «Aggiungi immagini» ne mette altre in coda; «Sostituisci immagini» toglie quelle che ci sono e mette le nuove.
@@ -207,7 +209,7 @@ Sul sito le foto arrivano ridotte a 1200 px e in WebP. Lo fa un piccolo plugin c
 
 Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e **Salva in PDF** propone già il nome del file. Nel PDF il testo si seleziona e si cerca. Il logo si carica una volta in Configurazione e compare su tutti i documenti.
 
-![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.45.10)
+![Una fattura stampata](screenshots/stampa-fattura.png?v=v0.45.11)
 
 - **DDT** con causale, aspetto dei beni, colli, peso, porto e vettore; se vuoi, senza prezzi.
 - Su un documento emesso si correggono note, numeri di serie e dati di trasporto, senza rifarlo.
@@ -219,23 +221,23 @@ Ogni stampa si apre in anteprima: da lì **Stampa** va diretta alla stampante e 
 
 Non serve installare niente e non serve una VPN: apri l'indirizzo del negozio dal browser, entri con utente, password e (se l'hai attivata) la verifica in due passaggi, e trovi lo stesso menu del programma.
 
-![Le vendite dal browser](screenshots/web-vendita.png?v=v0.45.10)
+![Le vendite dal browser](screenshots/web-vendita.png?v=v0.45.11)
 
 - Vendite, preventivi, ordini, documenti, cassa, assistenza, magazzino, anagrafiche e configurazione: le stesse funzioni.
 - **Le stampe escono sulla stampante del PC da cui sei collegato**, oppure le salvi in PDF dal browser.
 - **Lo scontrino esce sulla cassa del negozio** anche se la vendita la fai dal browser o da un'altra postazione: lo batte il PC a cui la cassa è collegata.
 
-![La cassa dal browser](screenshots/web-cassa.png?v=v0.45.10)
+![La cassa dal browser](screenshots/web-cassa.png?v=v0.45.11)
 
-![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.45.10)
+![Ricambi e manodopera di una riparazione, dal browser](screenshots/web-ricambi.png?v=v0.45.11)
 
-![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.45.10)
+![I documenti emessi, dal browser](screenshots/web-documenti.png?v=v0.45.11)
 
 ## Come lo vuoi tu
 
 In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, blocco senza giacenza, sconto massimo, mezzi di pagamento proposti, giorni di validità del preventivo, DDT senza prezzi, riconsegna solo con documento, e altro.
 
-![Le opzioni](screenshots/opzioni.png?v=v0.45.10)
+![Le opzioni](screenshots/opzioni.png?v=v0.45.11)
 
 - **Utenti e permessi**: ogni utente vede solo le voci di menu che gli lasci, e il server le chiude davvero.
 - **Registro delle attività**: chi ha annullato, eliminato o cambiato cosa, e quando.
@@ -243,7 +245,7 @@ In **Configurazione, Opzioni** scegli come lavora il programma: prezzi con IVA, 
 
 ## Chiaro e scuro
 
-![Il tema scuro](screenshots/tema-scuro.png?v=v0.45.10)
+![Il tema scuro](screenshots/tema-scuro.png?v=v0.45.11)
 
 ## Scaricare e installare
 
