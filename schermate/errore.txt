@@ -1,0 +1,4 @@
+Pagina: stampa_listini
+System.Exception: La pagina «Stampe listini» non si è aperta: Dato mancante o non valido: limit
+   at TDVexa.Giro.Tutto(String utente, String password, String indirizzo)
+   at TDVexa.Giro.<>c__DisplayClass4_0.<<Esegui>b__1>d.MoveNext()
